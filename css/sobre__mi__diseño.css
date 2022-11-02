@@ -83,7 +83,7 @@
     width: 100%;
     height: 65px;
     font-size: 20px;
-    font-family: var(--montserrat__fuente__titulo);
+    font-family: var(--opensans__fuente__texto);
 
 }
 
@@ -123,13 +123,13 @@
 }
 
 .container .header h1 {
-    font-family: var(--montserrat__fuente__titulo);
+    font-family: var(--opensans__fuente__texto);
     font-size: var(--relative-text);
     font-weight: bold;
 }
 
 .container .header h2 {
-    font-family: var(--martel__fuente__subtitulo);
+    font-family: var(--opensans__fuente__texto);
     font-size: var(--medium__size__text);
 }
 
@@ -140,7 +140,7 @@
     }
 
     .container .header h1 {
-        font-family: var(--montserrat__fuente__titulo);
+        font-family: var(--opensans__fuente__texto);
         font-size: var(--medium__size__text);
     }
 

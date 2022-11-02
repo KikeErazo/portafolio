@@ -4,7 +4,7 @@ nav {
     left: 0;
     right: 0;
     top: 0;
-    font-family: var(--martel__fuente__subtitulo);
+    font-family: var(--opensans__fuente__texto);
     font-size: var(--normal__size__text);
     height: 100px;
     padding: 0 5%;
@@ -27,7 +27,7 @@ nav .logo {
     display: flex;
     align-items: center;
     vertical-align: middle;
-    font-family: var(--montserrat__fuente__titulo);
+    font-family: var(--opensans__fuente__texto);
     font-size: var(--medium__size__text);
 }
 
