@@ -136,6 +136,7 @@
 @media screen and (max-width:768px) {
     .container .accordion {
         width: 100%;
+        text-align: left;
     }
 
     .container .header h1 {
