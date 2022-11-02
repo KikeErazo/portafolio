@@ -118,12 +118,20 @@
 
 @media screen and (max-width: 768px) {
 
+  .persona {
+    display: flex;
+    justify-content: right;
+    margin-bottom: .5rem;
+    text-align: right;
+  }
+
+
   .landing__page .bajame__esta__xd {
     display: none;
   }
 
   .landing__page .bajame__esta__xd__movil {
-    display: block;
+    display: flex;
     animation: slide-top 1.5s ease-in-out infinite both;
     transition: all .5s ease-in-out;
     color: var(--negro);
@@ -142,9 +150,10 @@
   }
 
   .landing__page {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
+    text-align: right;
   }
 
   .landing__page .presentacion {
@@ -168,37 +177,38 @@
 
   .landing__page .presentacion .p__1 {
     font-family: var(--opensans__fuente__texto);
-    font-size: var(--relatie-size);
-    text-align: center;
-    margin-bottom: .5rem;
+    font-size: var(--medium__size__text);
+    text-align: left;
+
+
   }
 
   .landing__page .presentacion .p__2 {
-    font-size: var(--relatie-size);
+    font-size: var(--small__size__text);
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
     overflow-wrap: break-word;
     line-height: 2rem;
-    margin-bottom: .5rem;
+
   }
 
   .landing__page .presentacion .descripcion {
     width: 100%;
     margin-bottom: .5rem;
-    text-align: center;
+    text-align: left;
   }
 
   .landing__page .socials {
-    padding: 0;
-    justify-content: space-between;
-    margin-bottom: 2rem;
+    padding: 0rem;
+    margin-bottom: 0rem;
+    text-align: center;
   }
 
   .landing__page .socials a {
-    padding: 0;
+    padding: .0rem;
   }
 
 }

@@ -1,87 +1,89 @@
-.container .estudios{
+.container .estudios {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
-#formacion{
+#formacion {
     background-image: var(--gardient__bg);
 }
 
 
-.container .estudios .paneles__formacion{
+.container .estudios .paneles__formacion {
     width: 30%;
     height: auto;
-    padding: .5rem .5rem ;
+    padding: .5rem .5rem;
     border: solid 2px var(--negro);
     transition: .5s;
     transform: .5s;
     background-color: rgb(194, 177, 162)
 }
 
-.container .estudios .paneles__formacion:hover{
+.container .estudios .paneles__formacion:hover {
     border: solid 3px var(--naranja);
     transform: scale(1.05);
     transition: all .5s ease-in-out;
     box-shadow: var(--box__shadow);
 }
 
-.estudios .paneles__formacion .titulo h1{
+.estudios .paneles__formacion .titulo h1 {
     font-family: var(--opensans__fuente__texto);
     font-size: var(--relative-size);
     padding-bottom: .5rem;
     text-align: center;
-    
+
 }
 
-.estudios .paneles__formacion .institucion h2{
+.estudios .paneles__formacion .institucion h2 {
     font-family: var(--opensans__fuente__texto);
     font-size: var(--relative-size);
     padding-bottom: .5rem;
     text-align: justify;
 }
 
-.estudios .paneles__formacion .fecha{
+.estudios .paneles__formacion .fecha {
     font-family: var(--opensans__fuente__texto);
     font-size: var(--relative-size);
 }
 
- .estudios .paneles__formacion .imagen{
+.estudios .paneles__formacion .imagen {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
     height: 250px;
     margin-bottom: 1rem;
-    margin-right: auto; margin-left: auto;
- }
+    margin-right: auto;
+    margin-left: auto;
+}
 
- .estudios .paneles__formacion .imagen img{
+.estudios .paneles__formacion .imagen img {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
     height: 250px;
     object-fit: contain;
-    margin-top: auto; margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     vertical-align: middle;
-    
+
 }
 
- .estudios .paneles__formacion .link{
+.estudios .paneles__formacion .link {
     margin: 1.5rem 0 0 0;
     width: 100%;
     background-color: var(--naranja);
     padding: .5rem 0;
     color: var(--blanco);
     border-radius: 10px;
- }
+}
 
- .estudios .paneles__formacion .link a{
+.estudios .paneles__formacion .link a {
     display: block;
     text-align: center;
- }
+}
 
 
 .container .cursos {
@@ -97,11 +99,36 @@
     flex-direction: row;
     justify-content: space-between;
     color: white;
-    
+
 
 }
 
-.container .cursos .subtitulo{
-    
+.container .cursos .subtitulo {
+
     background-color: var(--naranja);
+}
+
+@media screen and (max-width: 768px) {
+
+    .estudios .paneles__formacion .titulo h1 {
+        font-size: var(--small__size__text);
+    }
+
+    .estudios .paneles__formacion .institucion h2 {
+        font-size: var(--small__size__text);
+    }
+
+    .container .estudios {
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+
+    }
+
+    .container .estudios .paneles__formacion {
+        width: 100%;
+
+    }
+
+
 }
