@@ -129,6 +129,8 @@
         width: 100%;
 
     }
-
+.container .cursos {
+    font-size: 10px;
+}
 
 }
