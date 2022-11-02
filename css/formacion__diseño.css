@@ -130,7 +130,8 @@
 
     }
 .container .cursos {
-    font-size: 10px;
+    font-size: 9px;
+    text-align: left;
 }
 
 }
