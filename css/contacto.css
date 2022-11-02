@@ -1,0 +1,107 @@
+.container .contacto__panel {
+  color: var(--negro);
+  width: 66%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 3rem;
+  margin-bottom: 5rem;
+  background-image: var(--gardient__bg);
+  box-shadow: var(--box__shadow);
+}
+
+.container .contacto__panel .contenido {
+  display: block;
+}
+
+.container .contacto__panel .contenido h1 {
+  font-family: var(--opensans__fuente__texto);
+  font-size: var(--medium__size__text);
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.container .contacto__panel .contenido h2 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  text-justify: distribute;
+  font-family: var(--opensans__fuente__texto);
+  margin-bottom: .5rem;
+}
+
+
+.formulario .container {
+  width: 100%;
+  margin: auto;
+  border-radius: 25px;
+  text-align: center;
+}
+
+
+
+input[type=text],
+input[type=email],
+input[type=number] {
+  font-family: var(--opensans__fuente__texto);
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.formulario .container__btn input[type=submit] {
+
+  width: 100%;
+  padding: 12px;
+  margin-top: 2rem;
+  border-radius: 25px;
+  text-align: center;
+}
+
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+
+input[type=submit] {
+  background-color: var(--negro);
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width:768px) {
+  .container .contacto__panel {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .container .contacto__panel .contenido h2 {
+    width: 100%;
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=number] {
+    font-family: var(--opensans__fuente__texto);
+    margin: 0px 0;
+  }
+}

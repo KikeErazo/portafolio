@@ -1,0 +1,17 @@
+footer {
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+.footer {
+    padding: 1.5rem 10%;
+    text-align: center;
+    font-family: var(--montserrat__fuente__titulo);
+    font-size: var(--small__size__text);
+}
+
+@media screen and (max-width:768px) {
+    .footer {
+        padding: 1.5rem 14%;
+    }
+}

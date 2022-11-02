@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;900&family=Montserrat:wght@400;900&family=Open+Sans&display=swap');
+
+:root {
+    --negro: #212529;
+    --blanco: #F8F9FA;
+    --naranja: #78290f;
+
+    --montserrat__fuente__titulo: 'Montserrat', sans-serif;
+    --martel__fuente__subtitulo: 'Martel Sans', sans-serif;
+    --opensans__fuente__texto: 'Open Sans', sans-serif;
+
+    --biger__size__text: 6rem;
+    --big__size__text: 3rem;
+    --medium__size__text: 1.5rem;
+    --normal__size__text: 1.2rem;
+    --small__size__text: 1rem;
+
+    --transicion__default: .5s;
+
+    --box__shadow: -5px 1px 10px var(--negro);
+    --text__shadow: 1px 2px 10px var(--negro);
+
+    --gardient__bg: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    ;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--opensans__fuente__texto);
+    font-size: var(--normal__size__text);
+    color: var(--negro);
+    background-color: var(--blanco);
+}
+
+hr {
+    border: 1px solid var(--negro);
+}
+
+
+#btn__top {
+    display: none;
+    position: fixed;
+    bottom: 2%;
+    right: 0.5%;
+    z-index: 99;
+    color: var(--negro);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 3rem;
+    transition: .5s;
+    transform: .5s;
+}
+
+#btn__top:hover {
+    color: var(--naranja);
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    #btn__top {
+        background-color: var(--blanco);
+        padding: 0 .5rem;
+        border: solid 1px var(--negro);
+        font-size: 2.5rem;
+        box-shadow: var(--box__shadow);
+    }
+}

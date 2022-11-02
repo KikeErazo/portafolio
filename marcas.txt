@@ -1,0 +1,18 @@
+Colores: 
+    --negro: #212529;
+    --blanco: #F8F9FA;
+    --naranja : #78290f;
+
+Tipografías: 
+    @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;900&family=Montserrat:wght@400;900&family=Open+Sans&display=swap');
+
+    --montserrat__fuente__titulo: 'Montserrat', sans-serif;
+    --martel__fuente__subtitulo: 'Martel Sans', sans-serif;
+    --opensans__fuente__texto: 'Open Sans', sans-serif;
+
+Tamaños tipografías:
+    --biger__size__text: 6rem;
+    --big__size__text: 3rem;
+    --medium__size__text: 1.5rem;
+    --normal__size__text: 1.2rem;
+    --small__size__text: 1rem;

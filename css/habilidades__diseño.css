@@ -1,0 +1,68 @@
+.container .paneles__habilidades {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.paneles__habilidades .card {
+    display: block;
+    width: calc(10vw + 7rem);
+    padding: .5rem 0;
+    text-align: center;
+    margin: auto;
+    background-color: var(--naranja);
+    color: var(--blanco);
+    border-radius: 5px;
+    font-size: var(--relative-size);
+    box-shadow: var(--box__shadow);
+    transition: .5s;
+    transform: .5s;
+}
+
+.paneles__habilidades .card:hover {
+    transform: scale(1.2);
+    transition: all .5s ease-in-out;
+}
+
+.paneles__habilidades .card i {
+    font-size: var(--relative-size);
+    padding-bottom: .1rem;
+}
+
+.paneles__habilidades .card h2 {
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 1000px) {
+    .container .paneles__habilidades {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 3rem;
+    }
+
+    .paneles__habilidades .card {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container .paneles__habilidades {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .paneles__habilidades .card:hover {
+        transform: scale(1.1);
+    }
+
+    .paneles__habilidades .card {
+        width: 100%;
+    }
+}
