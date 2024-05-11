@@ -6,7 +6,7 @@
 .proyecto .titulo {
     background-color: var(--negro);
     max-width: fit-content;
-    padding: 1.5rem 2.5rem;
+    padding: .1rem 3rem;
     -webkit-border-top-left-radius: 25px;
     -webkit-border-top-right-radius: 25px;
     -moz-border-radius-topleft: 25px;
@@ -63,21 +63,6 @@
     -moz-border-radius-topright: 25px;
     border-top-right-radius: 25px;
 }
-
-.proyecto .cuerpo__imagen2 {
-    width: 100%;
-    border: 5px solid var(--negro);
-    height: auto;
-    object-fit: contain;
-    box-shadow: var(--box__shadow);
-    -webkit-border-top-right-radius: 25px;
-    -moz-border-radius-topright: 25px;
-    border-top-right-radius: 25px;
-    margin-bottom: 2rem;
-}
-
-
-
 
 
 

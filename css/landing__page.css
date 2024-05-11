@@ -19,7 +19,7 @@
 }
 
 .landing__page .socials a {
-  padding: 0rem 0rem 0rem 7rem;
+  padding: 7rem 0rem 0rem 7rem;
   transition: 1s;
   color: var(--naranja);
 }
@@ -32,7 +32,7 @@
 
 .landing__page .presentacion {
   display: block;
-  margin-top: 7rem;
+  margin-top: 20rem;
   margin-bottom: 7rem;
 }
 

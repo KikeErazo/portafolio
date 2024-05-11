@@ -5,7 +5,7 @@
 
 .container .panel {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: .1rem;
 }
 
 .container .accordion {
@@ -16,7 +16,7 @@
     overflow: hidden;
     width: 100%;
     box-shadow: var(--box__shadow);
-    border-radius: 15px;
+    border-radius: 1px;
     justify-content: center;
     align-items: center;
 }
@@ -123,12 +123,15 @@
 }
 
 .container .header h1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-family: var(--opensans__fuente__texto);
     font-size: var(--relative-text);
     font-weight: bold;
 }
 
 .container .header h2 {
+
     font-family: var(--opensans__fuente__texto);
     font-size: var(--medium__size__text);
 }
